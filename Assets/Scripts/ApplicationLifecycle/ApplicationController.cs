@@ -33,6 +33,7 @@ namespace Unity.BossRoom.ApplicationLifecycle
         LobbyServiceFacade m_LobbyServiceFacade;
 
         IDisposable m_Subscriptions;
+        private float test = 1.0f;
 
         protected override void Configure(IContainerBuilder builder)
         {
